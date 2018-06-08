@@ -25,7 +25,7 @@ function SiaClient(data) {
     this.request = request.defaults(_.defaultsDeep({}, defaults, data.request));
 }
 
-SiaClient.prototype.sendRequest = function (method, endpoint, parameters) {
+SiaClient.prototype.sendRequest = function (method, endpoint, parameters, body) {
     var self = this;
 
     return new Promise(function (resolve, reject) {
@@ -44,7 +44,8 @@ SiaClient.prototype.sendRequest = function (method, endpoint, parameters) {
         self.request({
             method: method,
             url: endpoint,
-            qs: parameters || {}
+            qs: parameters || {},
+            body: body || {}
         }).then(function (data) {
             return resolve(data);
         }).catch(function (err) {
