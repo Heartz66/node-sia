@@ -37,10 +37,6 @@ SiaClient.prototype.sendRequest = function (method, endpoint, parameters, body) 
             return reject(new Error('Invalid endpoint.'));
         }
 
-        if (typeof parameters !== 'undefined' && typeof parameters !== 'object') {
-            return reject(new Error('Invalid data.'));
-        }
-
         self.request({
             method: method,
             url: endpoint,
