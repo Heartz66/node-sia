@@ -3,9 +3,9 @@
   "version": "1.0.1",
   "description": "node-sia is a Node.js module that's made to interact with the Sia API.",
   "main": "index.js",
-  "homepage": "https://github.com/svanlangen/node-sia",
+  "homepage": "https://github.com/Heartz66/node-sia",
   "bugs": {
-    "url": "https://github.com/svanlangen/node-sia/issues"
+    "url": "https://github.com/Heartz66/node-sia/issues"
   },
   "dependencies": {
     "bluebird": "3.5.1",
@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/svanlangen/node-sia.git"
+    "url": "https://github.com/Heartz66/node-sia.git"
   },
   "devDependencies": {}
 }
