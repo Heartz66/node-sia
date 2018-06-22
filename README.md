@@ -1,6 +1,6 @@
 [![npm version](https://img.shields.io/npm/v/node-sia.svg)](https://npmjs.com/package/node-sia)
 [![npm downloads](https://img.shields.io/npm/dm/node-sia.svg)](https://npmjs.com/package/node-sia)
-[![dependencies Status](https://david-dm.org/svanlangen/node-sia/status.svg)](https://david-dm.org/svanlangen/node-sia)
+[![dependencies Status](https://david-dm.org/Heartz66/node-sia/status.svg)](https://david-dm.org/Heartz66/node-sia)
 [![license:mit](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 
 # Sia Client for Node.js
