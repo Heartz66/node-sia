@@ -1,11 +1,11 @@
-var Promise = require('bluebird');
-var _ = require('lodash');
-var request = require('request-promise');
+let Promise = require('bluebird');
+let _ = require('lodash');
+let request = require('request-promise');
 
 function SiaClient(data) {
     data = data || {};
 
-    var defaults = {
+    let defaults = {
         baseUrl: 'http://127.0.0.1:9980',
         json: true,
         timeout: 1000 * 30,
@@ -26,7 +26,7 @@ function SiaClient(data) {
 }
 
 SiaClient.prototype.sendRequest = function (method, endpoint, parameters, body) {
-    var self = this;
+    let self = this;
 
     return new Promise(function (resolve, reject) {
         if (typeof method !== 'string' || !_.includes(['GET', 'POST'], method)) {
